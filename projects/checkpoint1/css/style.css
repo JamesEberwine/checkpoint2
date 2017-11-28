@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 50px;
+  width: 850px;
+  background: url(../img/wood.jpg);
+  /*used the img url as the background in css because it has text pver it */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-family: 'Atomic Age', cursive;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  border-bottom: 3px solid #46404A; /*grey*/
+/* Postion, top and z-index properties are to hold the top nav bar at the top of the page*/
+}
+
+
+.cu {
+  margin-right: 50px;
+}
+
+.span1 {
+  padding: 85px;
+}
+
+.span2 {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ a:hover {
+   color: #4CAF50; /*This colors the link text green when hovering*/
+ }
+
+
+.image {
+  box-sizing: border-box;
+  height: 410px;
+  background: url(../img/main.jpg);
+  background-size: cover;
+  width:850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid #46404A; /*grey*/
+  border-bottom: 3px solid #46404A; /*grey*/
+}
+
+/*.frame {
+  height:70px;
+  width:375px;
+  background: teal;
+  border-radius: 15px;
+  border: 3px solid #46404A;
+
+}
+*/
+.name2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  margin-left: 25px;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+  /*These text shadow values give the text an outer glow*/
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: url(../img/wood.jpg);
+  color: white;
+  border-bottom: 1px solid #46404A; /*grey*/
+  font-family: 'Atomic Age', cursive;
+}
+
+.lower {
+  width: 850px;
+  height: auto;
+  background: #ABA58F; /*tan*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article {
+  width: 300px;
+  font-size: 14pt;
+  font-weight:bold;
+  font-family: 'Atomic Age', cursive;
+
+}
+.bh {
+  margin-bottom: 50px;
+}
+
+.hours {
+  text-decoration: underline;
+}
+
+.about{
+  font-style: italic;
+}
+
+.verticalpics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+/*This inner box is to stack the photos vertically within the horizonally organized "lower"*/
+}
+
+.pics {
+  height: 175px;
+  width: 300px;
+  border: 2px solid #53331E; /*brown*/
+  margin-top: 30px;
+}
+
+footer {
+  height: 50px;
+  width: 850px;
+  background: url(../img/wood.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-family: 'Atomic Age', cursive;
+  border-top: 1px solid #46404A; /*grey*/
+}
+
+.ftext {
+  font-size: 12px;
+  margin-right: 30px;
+}
